@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <title>Leaflet Realtime</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+    <link rel="stylesheet" href="estilos.css" />
+</head>
+<div class="topnav">
+    <a class="active" href="historial.html">Historial</a>
+    <!-- <a href="#contact">Contact</a>
+    <a href="#about">About</a> -->
+    <select id="loc" onchange="change_map()">
+        <option value="1">Miami</option>
+        <option value="2" selected>Orlando</option>
+        <option value="3" selected>New York</option>
+    </select>
+</div>
+<body>
+
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet-src.js"></script>
+    <script src="dist/leaflet-realtime.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

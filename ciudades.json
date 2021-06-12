@@ -1,0 +1,35 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.209132, 25.764203]
+        },
+        "properties": {
+            "id": 1,
+            "name": "miami"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.375647, 28.469014]
+        },
+        "properties": {
+            "id": 2,
+            "name": "orlando"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-73.999970, 40.627263]
+        },
+        "properties": {
+            "id": 3,
+            "name": "newyork"
+        }
+    }
+    ]
+}
